@@ -5,4 +5,4 @@ import com.hussien.topnews.domain.repository.NewsRepository
 
 class DeleteNewsUseCase(private val newsRepository: NewsRepository) {
     suspend fun execute(article: Article) = newsRepository.deleteNews(article)
-}
+}   
