@@ -7,7 +7,7 @@ import javax.inject.Inject
 
 
 class GetSearchedNewsUseCase @Inject constructor(private val newsRepository: NewsRepository) {
-    suspend fun execute(searchQuery:String):APIResponse{
-        return newsRepository.getSearchedNews(searchQuery)
+    suspend fun execute(page:Int,searchQuery:String):APIResponse{
+        return newsRepository.getSearchedNews(page,searchQuery)
     }
 }

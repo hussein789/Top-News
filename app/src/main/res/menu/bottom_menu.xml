@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="@string/top_news"
+        android:id="@+id/topNewsFragment"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:title="Saved News"
+        android:id="@+id/savedNewsFragment"
+        android:icon="@drawable/ic_baseline_save_24"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="200"
+        />
+</menu>
